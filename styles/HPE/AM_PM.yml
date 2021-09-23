@@ -1,9 +1,0 @@
----
-# Warning: HPE.AM_PM
-#
-extends: substitution
-message: "Write a.m. and p.m. in lowercase with periods. Use time period abbreviations for specific times only."
-level: error
-swap:
-  '\d{1,2} ?[ap]m': a.m. or p.m.
-  '\d{1,2} ?[AP]M': a.m. or p.m.

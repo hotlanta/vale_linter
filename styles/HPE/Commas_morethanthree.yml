@@ -1,9 +1,0 @@
----
-# Warning: HPE.Commas_morethanthree
-#
-# Use the Oxford comma.
-message: "More than 3 commas!"
-extends: occurrence
-scope: sentence
-max: 3
-token: ','

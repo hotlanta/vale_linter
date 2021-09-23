@@ -1,5 +1,0 @@
-message: "Do not use '%s' unnecessarily"
-extends: existence
-level: suggestion
-raw:
-  - '\b(?:at|from|of|to|in|for|on|by)[.!]'
