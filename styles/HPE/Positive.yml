@@ -1,0 +1,19 @@
+---
+# Warning: HPE.Positive
+#
+#Choose positive phrasing rather than negative whenever possible. Positive statements are more concise, easier to understand, and easier to translate.
+#
+extends: substitution
+message: Use %s instead of “%s”
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: warning
+ignorecase: true
+swap:
+  damage: “affect”
+  catastrophic: “serious”
+  bad: “serious”
+  fail: “unable to”
+  kill: “cancel”
+  fatal: “serious”
+  destroy: “remove”
+  wrong: “incorrect” or “inconsistent”

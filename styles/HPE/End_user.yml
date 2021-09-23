@@ -1,0 +1,13 @@
+---
+# Warning: HPE.Logon_login
+#
+# Use two words when you use log on (or log off) as a verb. Use one word when you use logon (or logoff) as a noun or adjective.
+extends: substitution
+message: "Use %s instead of '%s'."
+level: error
+# Use 'end user' (noun) or 'end-user' (verb).
+pos: 'end/NN user/\w+|end-user/\w+'
+ignorecase: true
+swap:
+  end-user: "“end user”"
+  end user: "“end-user”"

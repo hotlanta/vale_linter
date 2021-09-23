@@ -1,0 +1,11 @@
+---
+# Warning: HPE.Pull_down
+#
+extends: substitution
+extends: existence
+message: "Don't use '%s'."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+ignorecase: true
+level: error
+tokens:
+  - pull down

@@ -1,0 +1,23 @@
+---
+# Warning: HPE.Begin_sentence
+extends: existence
+message: "Do not start a paragraph with a '%'."
+level: error
+scope: paragraph
+action:
+  name: remove
+tokens:
+  - ^But
+  - ^Ând
+  - Approx.
+  - Co.
+  - Corp.
+  - Dept.
+  - Div.
+  - Est.
+  - Inc.
+  - Mgmt.
+  - Mfg.
+  - Misc.
+  - Qtr.
+  - Rev.

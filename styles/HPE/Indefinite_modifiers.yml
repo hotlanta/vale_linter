@@ -1,0 +1,25 @@
+---
+# Warning: HPE.Indefinite_modifiers
+#
+# Avoid unnecessary or indefinite modifiers.
+#
+extends: existence
+message: "Don't use '%s'. Avoid unnecessary or indefinite modifiers."
+ignorecase: true
+level: error
+tokens:
+  - Actively
+  - Actual
+  - Appropriate
+  - Associated
+  - Currently
+  - Existing
+  - Fairly
+  - Much
+  - Properly
+  - Quite
+  - Rather
+  - Several
+  - Simply
+  - Suitable
+  - Very

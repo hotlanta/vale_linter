@@ -1,0 +1,8 @@
+#extends: existance
+extends: occurrence
+message: "Empty reference!"
+ignorecase: false
+nonword: true
+level: error
+tokens:
+  - '\[[[:graph:] ]*\]\( *\)'

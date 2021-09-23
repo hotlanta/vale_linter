@@ -1,0 +1,12 @@
+---
+# Warning: HPE.HPE_possessive
+#
+# HPE should not be used in the possessive form.
+extends: existence
+message: "Do not use the possessive form with our products and services. Rewrite '%s' to not use 's. Use the possessive form only in reference to the company."
+level: error
+ignorecase: true
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+tokens:
+  - HPE's
+

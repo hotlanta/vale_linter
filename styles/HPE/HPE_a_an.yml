@@ -1,0 +1,13 @@
+---
+# Warning: HPE.HPE_a_an
+#
+# Use company name with proper use of "a" and "an".
+extends: existence
+message: "Use “a” with the brand name because it begins with a consonant sound (hyü). Use “an” with the abbreviation because it begins with a vowel sound (āch). Rewrite '%s' to not use 's."
+level: error
+ignorecase: true
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+tokens:
+  - A HPE
+  - An Hewlett Packard Enterprise
+

@@ -1,0 +1,12 @@
+---
+# Warning: HPE.Numeric_dates
+#
+# Do not use numeric dates for a global audience. Spelling out the month avoids misinterpretation.
+extends: existence
+message: "Always spell out the name of the month."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+ignorecase: true
+level: error
+nonword: true
+tokens:
+  - '\b\d{1,2}/\d{1,2}/(?:\d{4}|\d{2})\b'

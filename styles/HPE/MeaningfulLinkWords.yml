@@ -1,0 +1,15 @@
+---
+# Warning: HPE.MeaningfulLinkWords
+#
+# Checks for the presence of semantically unhelpful words in link text.
+#
+extends: existence
+message: "Do not create links that say 'here', 'click here', or 'click to [action]'."
+level: warning
+scope: link
+ignorecase: true
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+tokens:
+  - here
+  - click here
+  - click to

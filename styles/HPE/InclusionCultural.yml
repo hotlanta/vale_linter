@@ -1,0 +1,18 @@
+---
+# Warning: HPE.InclusionCultural
+#
+# Suggests alternatives for words that are culturally inappropriate.
+extends: substitution
+message: 'Use inclusive language. Consider "%s" instead of "%s".'
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: warning
+ignorecase: true
+swap:
+  blacklist(?:ed|ing|s)?: deny list
+  whitelist(?:ed|ing|s)?: allow list
+  master: primary, main
+  slave: secondary
+  black-hat hacker: unethical hacker
+  gray list: provisional list
+  white paper: technical paper
+  white-hat hacker: ethical hacker

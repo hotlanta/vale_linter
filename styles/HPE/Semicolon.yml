@@ -1,0 +1,11 @@
+---
+# Warning: HPE.Semicolons
+#
+extends: existence
+message: "Use semicolons judiciously."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+nonword: true
+scope: sentence
+level: suggestion
+tokens:
+  - ';'

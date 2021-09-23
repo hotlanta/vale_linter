@@ -1,0 +1,8 @@
+---
+# from https://github.com/testthedocs/Openly/blob/master/Openly/But.yml
+extends: existence
+message: "Do not start a paragraph with a 'but'."
+level: error
+scope: paragraph
+tokens:
+  - ^But

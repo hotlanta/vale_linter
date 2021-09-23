@@ -1,0 +1,60 @@
+---
+# Warning: HPE.Redundant
+#
+# Be as concise as possible while providing all the necessary information. Short sentences are easier to read and comprehend.
+extends: substitution
+message: "Consider using '%s' instead of '%s'."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+ignorecase: true
+level: suggestion
+action:
+  name: replace
+swap:
+"approximate(?:ly)?": about
+Add additional: Add
+Add more: Add
+Alternative options: Options
+Assemble together: Assemble
+Collaborate together: Collaborate
+Basic fundamentals: Fundamentals
+Brief overview: Overview
+Brief summary: Summary
+Close proximity: Proximity
+End result: Result
+Final outcome: Outcome
+Free gift: Gift
+Future plan: Plan
+Go-forward plan: Plan
+Joint collaboration: Collaboration
+Merge together: Merge
+Necessary requirements: Requirements
+Past experience: Experience
+Past history: History
+Plan ahead: Plan
+Reply back: Reply
+Respond back: Respond
+Return back: Return
+Revert back: Revert
+Unexpected surprise: Surprise
+A large number of: Many
+At this point in time: Currently
+At a later time: Later
+Due to the fact that: Because
+Each and every day: Daily
+From time to time: Occasionally
+Has a requirement for: Needs
+Has the ability to: Can
+In addition to: And
+In order to: To
+In the event that: If
+In the near future: Soon
+Is equipped with: Has
+Make a revision to: Revise
+Make an attempt: Try
+Most of the time: Usually
+Not very often: Rarely
+Over and over again: Repeatedly
+Prior to: Before
+Provides the ability to: Allows, enables
+Send an email to: Email
+Take into account: Consider
