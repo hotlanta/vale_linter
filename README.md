@@ -7,9 +7,9 @@ vale file._ file._ ...
 
 1. [Vale installation instructions](https://docs.errata.ai/vale/install) -- <b>Note: Run Windows Powershell as an Admin!</b>
 
-    - Copy [Vale styles folder](https://github.hpe.com/eric-szegedi/vale_linter/tree/master/styles) to your local repo and modify as needed. The styles found here are based on the HPE style guide, plus spell checker,, spelling exceptions, and some common sense styles (base folder).
+    - Copy [Vale styles folder](https://github.com/hotlanta/vale_linter/tree/main/styles) to your local repo and modify as needed. The styles found here are based on the HPE style guide, plus spell checker,, spelling exceptions, and some common sense styles (base folder).
     
-    - Copy [.vale.ini](https://github.hpe.com/eric-szegedi/vale_linter/blob/master/.vale.ini) file to your local repo and modify as needed.
+    - Copy [.vale.ini](https://github.com/hotlanta/vale_linter/blob/main/.vale.ini) file to your local repo and modify as needed.
 
 2. [Online tool for building Vale rules](https://github.com/errata-ai/vale-studio) -- Use if you need to create or update \*.yml files to check for additional conditions.
 
@@ -27,8 +27,8 @@ vale file._ file._ ...
 - go to Extensions -> Vale -> Settings and complete the settings for using CLI and indicating where your .vale.ini and vale.exe files are located.
 
   Example:
-  ![vscode_config_1](https://github.hpe.com/eric-szegedi/vale_linter/blob/master/images/vscode_config_1.png)
-  ![vscode_config_2](https://github.hpe.com/eric-szegedi/vale_linter/blob/master/images/vscode_config_2.png)
+  ![vscode_config_1](https://github.com/hotlanta/vale_linter/blob/main/images/vscode_config_1.png)
+  ![vscode_config_2](https://github.com/hotlanta/vale_linter/blob/main/images/vscode_config_2.png)
 
 5. [Integration with Atom text editor](https://atom.io/packages/atomic-vale)
 
@@ -45,7 +45,7 @@ vale file._ file._ ...
   - Supported Vale scopes: heading, table.header, table.cell, list, paragraph, code, strong, emphasis.
   - Supported Vale extension points: Existence, Substitution, Occurrence.
 
-8. For further usage and automation, see [Vale linter wiki](https://github.hpe.com/eric-szegedi/vale_linter/wiki)!
+8. For further usage and automation, see [Vale linter wiki](https://github.com/hotlanta/vale_linter/wiki)!
 
 9. References
     - styles used were based on yaml styles that can be found in these locations (note that some styles have been modified from their original version):    
