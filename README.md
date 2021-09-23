@@ -17,7 +17,7 @@ vale file._ file._ ...
 
 - Example:
 
-  ![env_var_1](https://github.com/hotlanta/vale_linter/tree/main/images/environment_variables.png)
+  ![env_var_1](https://github.com/hotlanta/vale_linter/blob/main/images/environment_variables.png)
 
 4. Installing Vale on VS Code
 
@@ -37,9 +37,9 @@ vale file._ file._ ...
 7. Integration with Oxygen Author XML terminology checker add-on [(Installation instructions)](https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/terminology-checker-addon.html)
 
 - Add the terminology checker file to the folder containing your Vale linter \*.yml files
-  ![term_checker_1](https://github.com/hotlanta/vale_linter/tree/main/images/terminology_checker_file.png)
+  ![term_checker_1](https://github.com/hotlanta/vale_linter/blob/main/images/terminology_checker_file.png)
 - Select the correct Terminology folder: Preferences->Plugins->Terminology Checker
-  ![term_checker_2](https://github.com/hotlanta/vale_linter/tree/main/images/terminology_checker.png)
+  ![term_checker_2](https://github.com/hotlanta/vale_linter/blob/main/images/terminology_checker.png)
 - Note that Oxygen Author XML will have some error messages from using the Vale _.yml files. These error messages are the because only certain _.yml files are supported. These error messages can be ignored. The following type of Vale \*yml files are supported:
 
   - Supported Vale scopes: heading, table.header, table.cell, list, paragraph, code, strong, emphasis.
