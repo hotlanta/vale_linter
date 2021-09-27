@@ -1,6 +1,6 @@
 Vale is a grammar, style, and word usage linter for the English language. Vale’s configuration needs to be stored in the .vale.ini file located in the root directory of a project. The styles folder should also be stored in the root directory of a project.
 
-The Vale files in this repo implement the HPE style guide.
+The Vale files in this repository implement the HPE style guide.
 
 To check a file(s) the following command can be used in CLI:
 vale file._ file._ ...
