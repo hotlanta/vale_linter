@@ -1,0 +1,19 @@
+# EXAMPLE USAGE
+# For explanation refer to following link:
+# https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
+#
+
+commit-msg:
+  scripts:
+    "template_checker":
+      runner: bash
+
+pre-push:
+  parallel: true
+  commands:
+    vale:  # Requires Vale: https://docs.errata.ai/vale/install
+      tags: documentation style
+      files: git diff --name-only 2.2.1 origin/2.2.1
+      glob: '*.dita'
+#      run: if command -v vale 2> /dev/null; then vale --config .vale.ini {files}; else echo "Vale not found. Install Vale"; fi
+      run: vale --config .vale.ini {files}
