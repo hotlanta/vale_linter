@@ -1,0 +1,10 @@
+---
+# Warning: HPE.Commas_morethanthree
+#
+# Use the Oxford comma.
+message: "More than 3 commas!"
+extends: occurrence
+scope: sentence
+level: warning
+max: 3
+token: ','

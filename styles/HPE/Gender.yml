@@ -1,0 +1,31 @@
+#Suggests alternatives for words that are gender specific
+extends: substitution
+message: 'Use inclusive language. Consider "%s" instead of "%s".'
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: error
+ignorecase: true
+swap:
+  mankind: humanity, people
+  manpower: GitLab team members
+  he: they
+  his: their
+  she: they
+  hers: their
+  Businessman: Business professional, businessperson
+  Businesswoman: Business professional, businessperson
+  Chairman: Chair, chairperson
+  Chairwoman: Chair, chairperson
+  Freshman: First-year student
+  Husband: Spouse, partner
+  Wife: Spouse, partner
+  Man-made: Manufactured, synthetic
+  Manpower: Workforce, personnel, staff
+  Mans: Operates, staffs
+  Mother: Parent
+  Father: Parent
+  Opposite sex: Different sex
+  Salesman: Salesperson, sales representative, sales rep
+  Saleswoman: Salesperson, sales representative, sales rep
+  Sexual preference: Sexual orientation
+  Sexual identity: Sexual orientation
+

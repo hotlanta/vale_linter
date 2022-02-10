@@ -1,0 +1,44 @@
+---
+# Warning: HPE.Terms_ignorecase_true
+#
+extends: substitution
+message: "Prefer '%s' over '%s'"
+ignorecase: true
+level: warning
+swap:
+  bi-weekly: biweekly
+  co-worker: coworker
+  cyber cafe: cybercafe
+  cyber crime: cybercrime
+  cyber security: cybersecurity
+  cyber space: cyberspace
+  drop down: drop-down
+  e-mail: email
+  employee: team member
+  health care: healthcare
+  homepage: home page
+  hyper converged: hyperconverged
+  learnings: learning
+  medium: media
+  mid-year: midyear
+  multi-national: multinational
+  multi-processor: multiprocessor
+  non-essential: nonessential
+  non-issue: nonissue
+  over: more than
+  onpremises: on-premises
+  pan-HPE: HPE
+  pre-installed: preinstalled
+  pre-submit: presubmit
+  re-energize: reenergize
+  re-routed: rerouted
+  refer to: see,see also
+  semi-monthly: semimonthly
+  shut down: close, quit
+  sub-menu: submenu
+  sub-section: subsection
+  terminate: close, quit
+  trainings: training
+  web site: website
+  web page: webpage
+

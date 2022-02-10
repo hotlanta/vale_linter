@@ -1,0 +1,11 @@
+---
+# Warning: HPE.Noon_midnight
+#
+# Use noon instead of 12 p.m. and midnight instead of 12 a.m. Do not include the number 12 with the word (as in 12 noon).
+extends: substitution
+message: Use '%s'
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+ignorecase: false
+level: error
+swap:
+  '12 ?[ap]\.?m\.?': midnight or noon

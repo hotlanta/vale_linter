@@ -1,0 +1,20 @@
+---
+# Warning: HPE.Person
+#
+# Checks for use of first-person pronouns and the use of you.
+extends: existence
+message: '"%s" is a first-person or a third-person pronoun. Write directly to the user or use second-person pronouns (such as you) instead. The subject "you" is understood and need not be written. Use "you" sparingly'
+level: warning
+ignorecase: true
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+tokens:
+  - '\bI[ ,;:?!"]|\bI\x27.{1,2}'
+  - me
+  - myself
+  - mine
+  - you
+  - we
+  - we'(?:ve|re)
+  - ours?
+  - us
+  - let's

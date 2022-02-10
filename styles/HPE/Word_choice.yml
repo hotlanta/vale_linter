@@ -1,0 +1,36 @@
+---
+# Warning: HPE.Word_choice
+#
+# In writing for a global audience, when you have the choice of using a word with a single meaning or a word with multiple meanings, choose the word with a single meaning.
+extends: substitution
+message: 'Consider "%s" instead of "%s".'
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: warning
+ignorecase: true
+swap:
+  As: Because
+  Since: Because
+  Hard: Difficult
+  May: Might, could
+  Once: After, when
+  Right: Correct
+  Over: More than
+  Roughly: Approximately
+  While: Although
+  Accomplish: Do
+  Additionally: Also
+  Consequently: So
+  Currently: Now
+  Demonstrate: Show
+  Erroneous: Wrong
+  Expeditiously: Quickly
+  Facilitate: Assist, help
+  Initiate: Start
+  Modify: Change, change
+  Modifications: Change, changes
+  Terminate: End, stop
+  Discontinue: End, stop
+  Utilize: Use, usage
+  Employ: Use, usage
+  Utilization: Use, usage
+  With: By using

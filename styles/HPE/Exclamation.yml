@@ -1,0 +1,10 @@
+---
+# Warning: HPE.Exclamation
+#
+# Do not use an exclamation point as end punctuation in technical writing.
+extends: existence
+message: "Don't use exclamation points in text."
+nonword: true
+level: error
+tokens:
+  - '\w!(?:\s|$)'

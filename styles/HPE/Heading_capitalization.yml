@@ -1,0 +1,12 @@
+---
+# Warning: HPE.Heading_capitalization
+#
+# Capitalize headings in sentence structure
+message: "'%s' should in sentence structure."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+extends: existence
+level: suggestion
+scope: heading.h1
+exceptions: ['HPE', 'NFV-D', '5G']
+raw:
+  - '^(?:#+\s)?[a-z].+'

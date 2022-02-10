@@ -1,0 +1,13 @@
+---
+# Warning: HPE.Backup
+#
+# Use two words when you use back up as a verb. Use one word when you use backup as a noun or adjective.
+extends: substitution
+message: 'Use backup (noun) or back up (verb).'
+level: warning
+pos: 'backup/VB|back/NN up/\w+|back-up/\w+'
+ignorecase: true
+swap:
+  backup: "“back up”"
+  back up: "“backup”"
+  back-up: "“backup” or “back up”"

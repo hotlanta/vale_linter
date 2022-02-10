@@ -1,0 +1,9 @@
+---
+message: Avoid ending a sentence with “%s”
+link: https://github.com/testthedocs/OpenStack/blob/master/OpenStack/DangPrep.yml
+description: As much as possible, avoid trailing prepositions in sentences by avoiding phrasal verbs.
+extends: existence
+level: warning
+scope: sentence
+raw:
+  - '\b(?:at|from|of|to|in|for|on|by|up)[.!]'

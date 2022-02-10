@@ -1,0 +1,30 @@
+extends: existence
+message: "Don't use language (such as '%s') that defines people by their disability. Use term 'people with disabilities'."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: suggestion
+ignorecase: true
+tokens:
+  - a victim of
+  - able-bodied
+  - affected by
+  - an epileptic
+  - crippled
+  - disabled
+  - differently abled
+  - dumb
+  - handicapped
+  - handicaps
+  - healthy
+  - lame
+  - maimed
+  - missing a limb
+  - mute
+  - normal
+  - poor
+  - retarded
+  - sight-impaired
+  - special needs
+  - stricken with
+  - suffers from
+  - unfortunate
+  - vision-impaired

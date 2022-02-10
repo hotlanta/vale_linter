@@ -1,0 +1,12 @@
+---
+# Warning: HPE.Numbers
+#
+# The numbers one through nine, including ordinals such as first, second, and third.
+extends: substitution
+message: 'Consider %s.'
+message: "Spell out numbers below 10 and use numerals for numbers 10 and above"
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+level: warning
+ignorecase: false
+swap:
+ '[1-9]': Spell out numbers below 10

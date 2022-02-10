@@ -1,0 +1,10 @@
+---
+# Warning: HPE.Numbers_ranges
+#
+extends: existence
+message: "When giving a range of numbers, use the word to or through, or use an en dash without spaces."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+nonword: true
+level: warning
+tokens:
+  - '\b\d+\s?[-–]\s?\d+\b'

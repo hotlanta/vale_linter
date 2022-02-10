@@ -1,4 +1,10 @@
+AAA
+AKA
+APNS
 Alexa
+ANSI
+API
+ASCII
 Asciidoctor
 async
 bootable
@@ -9,7 +15,9 @@ crons
 crontab
 crontabs
 Couchbase
+DEG
 DevOps
+EAP
 Elasticsearch
 failover
 failovers
@@ -19,9 +27,11 @@ GitHub
 GitLab
 Grafana
 Helm
+HPE
 hotfix
-http
-https
+HTTP
+HTTPS
+HSS
 Jaeger
 JavaScript
 Jenkins
@@ -36,9 +46,11 @@ Lucene
 Markdown
 middleware
 Minikube
+MSISDN
 namespace
 nullable
 OAuth
+OIDC
 OpenID
 OpenShift
 plaintext
@@ -46,22 +58,29 @@ prepend
 proxies
 pytest
 Python
+RCC
 rebase
 Redis
 reflog
 reindex
 Restlet
 Rubix
+SMS
+SOAP
 subnet
 subquery
 substring
 subtask
 sudo
-URIs
-websheet
+URI
+URL
+VLAN
+Websheet
 websocket
+WLAN
 workstream
 Xcode  
+YAML
 
 
 

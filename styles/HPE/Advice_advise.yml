@@ -1,0 +1,9 @@
+---
+extends: substitution
+message: 'Use %s instead of “%s”.'
+level: error
+pos: 'advice/VB|advise/NN in/\w+'
+ignorecase: true
+swap:
+  advice: "“advise”"
+  advise: "“advice”"

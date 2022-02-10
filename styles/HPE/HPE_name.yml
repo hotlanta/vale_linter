@@ -1,0 +1,13 @@
+---
+# Warning: HPE.BrandName
+#
+# Checks for proper use of HPE and Hewlett Packard Enterprise.
+extends: substitution
+message: Use '%s' instead of '%s'.
+link: "https://h10014.www1.hpe.com/brand-central/content/writing-style"
+level: error
+scope: paragraph
+swap:
+  '(?:Hewlett Packard Enterprise [^\s]*) ?': HPE, Hewlett Packard Enterprise
+  HP Enterprise: HPE
+  Hewlett Packard: Hewlett Packard Enterprise, HPE

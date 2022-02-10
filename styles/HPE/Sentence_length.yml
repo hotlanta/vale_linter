@@ -1,0 +1,12 @@
+---
+# Warning: HPE.Sentence_length
+#
+# Be as concise as possible while providing all the necessary information. Short sentences are easier to read and comprehend.
+#
+extends: occurrence
+message: "Try to keep sentences less than 25 words."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+scope: sentence
+level: suggestion
+max: 25
+token: \b(\w+)\b
