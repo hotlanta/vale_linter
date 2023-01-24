@@ -1,8 +1,0 @@
----
-extends: existence
-message: "Don't use ampersands unless one is part of a company or brand name."
-link: https://github.com/testthedocs/MailChimp/blob/master/MailChimp/Ampersands.yml
-level: warning
-nonword: true
-tokens:
-  - '\w+\s&\s\w+'

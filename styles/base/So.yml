@@ -1,0 +1,10 @@
+---
+# Warning: base.So
+# 
+extends: existence
+message: "Don't start a sentence with '%s'"
+link: https://github.com/testthedocs/vale-styles/blob/master/ttd-light/So.yml
+ignorecase: true
+level: error
+raw:
+  - '(?:[;-]\s)so[\s,]|So[\s,]'

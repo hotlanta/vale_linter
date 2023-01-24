@@ -1,3 +1,6 @@
+---
+# Error: base.Empty_reference
+#
 #extends: existance
 extends: occurrence
 message: "Empty reference!"
