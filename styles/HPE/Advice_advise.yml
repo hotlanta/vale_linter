@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: 'Use %s instead of “%s”.'
+message: 'Use %s instead of “%s”. Advice is a noun. Advise is a verb meaning to give advice to. It also means to inform.'
 level: error
 pos: 'advice/VB|advise/NN in/\w+'
 ignorecase: true

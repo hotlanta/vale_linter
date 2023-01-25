@@ -1,0 +1,12 @@
+---
+# Warning: HPE.HPE_Ellipses
+#
+extends: existence
+message: "In general, don't use an ellipsis."
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+nonword: true
+level: warning
+action:
+  name: remove
+tokens:
+  - '\.\.\.'

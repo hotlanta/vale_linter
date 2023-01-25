@@ -17,3 +17,14 @@ ignorecase: true
 # We only want one of these to appear.
 either:
   advisor: adviser
+  centre: center
+  colour: color
+  emphasise: emphasize
+  finalise: finalize
+  focussed: focused
+  labour: labor
+  learnt: learned
+  organise: organize
+  organised: organized
+  organising: organizing
+  recognise: recognize

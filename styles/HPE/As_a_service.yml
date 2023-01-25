@@ -1,0 +1,12 @@
+---
+# Warning: HPE.As_a_service
+#
+# Use hyphens only when an aaS term is used as an adjective before a noun. Use no hyphens when aaS term is used as a noun.
+extends: substitution
+message: 'Use as a service (noun) or as-a-service (adjective).'
+level: warning
+pos: 'as a service/NN/\w+|as-a-service/\w+'
+ignorecase: true
+swap:
+  as a service: "“as-a-service”"
+  as-a-service: "“as a service”"

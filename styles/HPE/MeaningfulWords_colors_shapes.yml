@@ -1,0 +1,20 @@
+---
+# Warning: HPE.MeaningfulWords_colors_shapes
+#
+# Checks for the presence of semantically unhelpful words in link text.
+#
+extends: existence
+message: "Do not rely solely on colors or shapes to convey information."
+level: warning
+ignorecase: true
+link: https://h10014.www1.hpe.com/brand-central/content/writing-style
+tokens:
+  - box
+  - circle
+  - rectangle
+  - blue
+  - red
+  - green
+  - yellow
+  - orange
+  - black
