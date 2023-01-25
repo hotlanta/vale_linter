@@ -18,9 +18,11 @@ The following points below provide installation instructions, setup and configur
 
    b. [Vale usage with a continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
 
-   c. Whenever HPE GitHub Enterprise enables GitHub actions, then this can be another method of automation: [Vale GitHub action](https://github.com/errata-ai/vale-action). Until then only #1 and # 2 review automation tools can be used.
+   c. GitHub actions is another method of automation: [Vale GitHub action](https://github.com/errata-ai/vale-action). It has to be enabled by writing this email address - scm_ghe_admins@groups.ext.hpe.com - to ask the admins to enable it for your repo.
 
-5. References
+5. [Understanding the Vale command line tool output](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Understanding-the-Vale-command-line-tool-output)
+
+6. References
 
    Rules used to convert the HPE Style Guide were based on YAML styles that can be found in these locations:
 
@@ -28,3 +30,21 @@ The following points below provide installation instructions, setup and configur
 
    - <https://github.com/topics/vale-linter-style>
    - <https://github.com/errata-ai/styles>
+
+7. Upgrade Vale
+
+   If Vale was installed on your machine using the `choco` command, then to update Vale to a new release run the command `choco upgrade vale`.
+
+8. Extension points
+
+| **Check**                                                       | **Implementations** |
+|-----------------------------------------------------------------|---------------------|
+| [existence](https://errata-ai.github.io/vale/styles/#existence) | HPE: AM_PM.yml, Ampersands, Begin_sentence.yml, But.yml, Capitalize_file_extensions.yml, Dates_ordinal.yml, Dates.yml, Directional_language.yml, Disabilities.yml, EmDash.yml, EnDash.yml, Ensure.yml, Exclamation.yml, Heading_capitalization.yml, headingPunctuation.yml, HPE_a_an.yml, HPE_Ellipses.yml, HPE_hyphen.yml, Indefinite_modifiers.yml, Jargon.yml, MeaningfulLinkWords.yml, MeaningfulWords_colors_shapes.yml, Negative_numbers.yml, Numbers_ranges.yml, Numeric_dates, Passive.yml, Person.yml, Prepositions_end_sentence.yml, Prepositions.yml, Quote_punctuation.yml, Semicolons.yml, Slash.yml, Spaces.yml, Tense.yml, Time_ranges.yml, Units_space, Wordiness,yml <br/><br/> Base: Capitalize_list_start.yml, Customer_names.yml, Empty_reference.yml, So.yml, Validate_wordiness.yml |
+| [substitution](https://errata-ai.github.io/vale/styles/#substitution) | HPE: 24_7.yml, above_below.yml, Advice_advise.yml, Appendixes, HPE_Avoid.yml, Backup.yml, British.yml, Contractions.yml, End_user.yml, Gender.yml, HPE_name.yml, HPE_possessive.yml, InclusionCultural.yml, InclusionOther.yml, Latin.yml, Logon_login.yml, Noon_midnight.yml, Numbers.yml, Please.yml, Positive.yml, Pull_down.yml, Redundant.yml, Setup.yml, Should.yml, Terms_ignorecase_false.yml, Terms_ignorecase_true.yml, Very.yml, Word_choice.yml, Zero.yml <br/><br/> Base: Backend.yml, Term_Consistency_yml, Typography.yml  |
+| [occurrence](https://errata-ai.github.io/vale/styles/#occurrence) | Commas_morethanthree.yml, Sentence_length.yml |
+| [repetition](https://errata-ai.github.io/vale/styles/#repetition) | Repetition.yml |
+| [consistency](https://errata-ai.github.io/vale/styles/#consistency) | Consistency.yml |
+| [capitalization](https://errata-ai.github.io/vale/styles/#capitalization) | Capitalization.yml |
+| [readability](https://errata-ai.github.io/vale/styles/#readability) | N/A |
+| [conditional](https://errata-ai.github.io/vale/styles/#conditional) | HPE: Acronyms_abbreviations.yml  <br/><br/> Base: UnexpandedAcronyms.yml |
+| [spelling](https://errata-ai.github.io/vale/styles/#spelling) | Spelling.yml |
