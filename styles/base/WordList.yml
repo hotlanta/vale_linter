@@ -1,6 +1,8 @@
+---
+# Warning: base.WordList
+# 
 extends: substitution
 message: "Use '%s' instead of '%s'."
-link: 'https://developers.google.com/style/word-list'
 level: warning
 ignorecase: false
 action:
@@ -20,33 +22,33 @@ swap:
   'Google (?:I\-O|IO)': Google I/O
   'tap (?:&|and) hold': touch & hold
   'un(?:check|select)': clear
-  above: preceding
+  #above: preceding
   account name: username
   action bar: app bar
   admin: administrator
   Ajax: AJAX
   (?i)a\.k\.a|aka: or|also known as
-  Android device: Android-powered device
+  #Android device: Android-powered device
   android: Android
   API explorer: APIs Explorer
   application: app
-  approx\.: approximately
+  #approx\.: approximately
   authN: authentication
   authZ: authorization
   autoupdate: automatically update
   cellular data: mobile data
   cellular network: mobile network
-  chapter: documents|pages|sections
+  #chapter: documents|pages|sections
   check box: checkbox
   check: select
   CLI: command-line tool
   click on: click|click in
-  Cloud: Google Cloud Platform|GCP
+  #Cloud: Google Cloud Platform|GCP
   Container Engine: Kubernetes Engine
   content type: media type
   curated roles: predefined roles
   data are: data is
-  Developers Console: Google API Console|API Console
+  #Developers Console: Google API Console|API Console
   disabled?: turn off|off
   ephemeral IP address: ephemeral external IP address
   fewer data: less data
@@ -57,15 +59,15 @@ swap:
   Google accounts: Google Accounts
   Googling: search with Google
   grayed-out: unavailable
-  HTTPs: HTTPS
+  #HTTPs: HTTPS
   in order to: to
   ingest: import|load
   k8s: Kubernetes
-  long press: touch & hold
+  long press: touch and hold
   network IP address: internal IP address
   omnibox: address bar
   open-source: open source
-  overview screen: recents screen
+  #overview screen: recents screen
   regex: regular expression
   SHA1: SHA-1|HAS-SHA1
   sign into: sign in to
@@ -76,6 +78,6 @@ swap:
   tablename: table name
   tablet: device
   touch: tap
-  url:  URL
-  vs\.: versus
+  url: URL
+  #vs\.: versus
   World Wide Web: web
