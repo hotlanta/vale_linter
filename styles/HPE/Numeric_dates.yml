@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Numeric_dates
+# Error: HPE.Numeric_dates
 #
 # Do not use numeric dates for a global audience. Spelling out the month avoids misinterpretation.
 extends: existence

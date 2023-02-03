@@ -6,7 +6,7 @@ extends: existence
 message: "Use month day, year format, for example July 31, 2016, not '%s'."
 link: https://h10014.www1.hpe.com/brand-central/content/writing-style
 ignorecase: true
-level: error
+level: warning
 nonword: true
 tokens:
   - '\d{1,2}(?:\.|/)\d{1,2}(?:\.|/)\d{4}'

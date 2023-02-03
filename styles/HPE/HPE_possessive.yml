@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.HPE_possessive
+# Error: HPE.HPE_possessive
 #
 # HPE should not be used in the possessive form.
 extends: existence

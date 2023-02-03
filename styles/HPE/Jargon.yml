@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Jargon
+# Error: HPE.Jargon
 extends: existence
 message: "Don't use internet slang abbreviations such as '%s'."
 link: https://h10014.www1.hpe.com/brand-central/content/writing-style

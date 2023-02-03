@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Time_ranges
+# Error: HPE.Time_ranges
 #
 # Use an en dash without spaces in a range of time.
 extends: existence

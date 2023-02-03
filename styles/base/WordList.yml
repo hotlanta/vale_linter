@@ -63,15 +63,18 @@ swap:
   in order to: to
   ingest: import|load
   k8s: Kubernetes
+  K8s: Kubernetes
   long press: touch and hold
   network IP address: internal IP address
+  nginx: NGINX
+  Nginx: NGINX
   omnibox: address bar
   open-source: open source
   #overview screen: recents screen
   regex: regular expression
   SHA1: SHA-1|HAS-SHA1
   sign into: sign in to
-  sign-?on: single sign-on
+  sign-?on: single-sign-on
   static IP address: static external IP address
   stylesheet: style sheet
   synch: sync

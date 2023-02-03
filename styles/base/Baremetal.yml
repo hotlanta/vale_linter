@@ -1,0 +1,14 @@
+---
+# Warning: base.Baremetal
+#
+# Checks for consistency of terms in DID documentation.
+extends: substitution
+message: "Use '%s' instead of '%s'. Use {bare metal} when it is a noun or {bare-metal} when it is an adjective."
+level: warning
+pos: 'bare-metal/NN|baremetal/(?:JJ|NN)|bare/\w+ metal/JJ|bare/(?:JJ|RB) metal/\w+'
+ignorecase: true
+action:
+  name: replace
+swap:
+  baremetal: "“bare metal”"
+  bare-metal: "“bare metal”"

@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Please
+# Error: HPE.Please
 #
 extends: substitution
 extends: existence

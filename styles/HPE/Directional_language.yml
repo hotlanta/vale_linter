@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Directional_language
+# Suggestion: HPE.Directional_language
 #
 extends: existence
 message: 'Avoid using directional language such as left or right. Use specific detail instead.'

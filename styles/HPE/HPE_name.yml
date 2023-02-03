@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.BrandName
+# Error: HPE.BrandName
 #
 # Checks for proper use of HPE and Hewlett Packard Enterprise.
 extends: substitution

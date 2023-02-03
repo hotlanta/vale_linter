@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Semicolons
+# Suggestion: HPE.Semicolons
 #
 extends: existence
 message: "Use semicolons judiciously."

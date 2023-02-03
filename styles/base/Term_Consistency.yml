@@ -1,11 +1,13 @@
 ---
-# Warning: base.Term_Consistency
+# Error: base.Term_Consistency
 #
 # Checks for consistency of terms in DID documentation.
 extends: substitution
-message: "Use '%s' instead of '%s'"
+message: "Use '%s' instead of '%s'."
 level: error
 ignorecase: true
 swap:
   baremetal: "“bare metal”"
   bare-metal: "“bare metal”"
+  keyPair: "key pair"
+  userKey: "user key"

@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Exclamation
+# Error: HPE.Exclamation
 #
 # Do not use an exclamation point as end punctuation in technical writing.
 extends: existence

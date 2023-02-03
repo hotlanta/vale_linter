@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.HPE_a_an
+# Error: HPE.HPE_a_an
 #
 # Use company name with proper use of "a" and "an".
 extends: existence

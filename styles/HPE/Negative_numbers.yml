@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Negative_numbers
+# Error: HPE.Negative_numbers
 #
 # Use an en dash instead of a hyphen for negative numbers.
 extends: existence

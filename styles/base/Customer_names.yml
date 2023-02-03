@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Customer_names
+# Error: base.Customer_names
 extends: existence
 message: "Do not use customer names such as '%s' in the documentation."
 link: https://h10014.www1.hpe.com/brand-central/content/writing-style

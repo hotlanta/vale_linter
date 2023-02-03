@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Units_space
+# Error: HPE.Units_space
 #
 extends: existence
 message: "Put a nonbreaking space between the number and the unit in '%s'."

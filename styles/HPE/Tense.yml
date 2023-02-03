@@ -1,5 +1,5 @@
 ---
-# Suggestion: HPE.Tense
+# Warning: HPE.Tense
 #
 # Checks for use of future tense in sentences. Present tense is strongly preferred.
 extends: existence

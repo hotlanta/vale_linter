@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Consistency
+# Error: HPE.Consistency
 #
 # Use consistent terminology. Always refer to the same object with the same term.
 #

@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.HPE_hyphen
+# Error: HPE.HPE_hyphen
 #
 # Do not add a hyphen to the company name by using it in a compound adjective or with a prefix.
 extends: existence

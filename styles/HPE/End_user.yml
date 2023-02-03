@@ -1,11 +1,10 @@
 ---
-# Warning: HPE.Logon_login
+# Warning: HPE.End_user
 #
 # Use end user as a verb. Use end-user as a noun or adjective.
 extends: substitution
-message: "Use %s instead of '%s'."
+message: "Do you need to use %s instead of '%s'. Use 'end user' (noun) or 'end-user' (adjective)."
 level: warning
-# Use 'end user' (noun) or 'end-user' (verb).
 pos: 'end/NN user/\w+|end-user/\w+'
 ignorecase: true
 swap:

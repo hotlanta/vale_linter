@@ -1,8 +1,7 @@
 extends: substitution
-message: "Use '%s' instead of '%s'.Use 'back end' when it is a noun or 'back-end' when it is an adjective."
+message: "Use '%s' instead of '%s'.Use {back end} when it is a noun or {back-end} when it is an adjective."
 level: warning
 link: https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/b/back-end
-# Use 'back end' (noun) or 'back-end' (adj).
 pos: 'back-end/NN|backend/(?:JJ|NN)|back/\w+ end/JJ|back/(?:JJ|RB) end/\w+'
 ignorecase: true
 action:

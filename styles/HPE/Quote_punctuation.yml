@@ -1,5 +1,5 @@
 ---
-# Warning: HPE.Quote_punctuation
+# Error: HPE.Quote_punctuation
 extends: existence
 message: 'Punctuation should be inside the quotes.'
 level: error
