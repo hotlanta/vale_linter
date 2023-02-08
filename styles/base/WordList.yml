@@ -83,4 +83,6 @@ swap:
   touch: tap
   url: URL
   #vs\.: versus
+  websheet: Websheet
+  websheets: Websheets
   World Wide Web: web
