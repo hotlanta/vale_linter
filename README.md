@@ -35,7 +35,7 @@ The following points below provide installation instructions, setup and configur
 
    b. [Vale usage with a continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
 
-   c. GitHub action: [Vale GitHub action](https://github.com/errata-ai/vale-action). It has to be enabled by writing this email address - scm_ghe_admins@groups.ext.hpe.com - to ask the admins to enable it for your repo. 
+   c. GitHub action: [Vale GitHub action](https://github.com/errata-ai/vale-action). 
 
 6. [Understanding the Vale command line tool output](https://github.com/hotlanta/vale_linter/wiki/Understanding-the-Vale-command-line-tool-output)
 
