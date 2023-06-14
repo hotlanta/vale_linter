@@ -21,23 +21,23 @@ The styles and config files will undergo regular updates so [keep your fork in s
 
 The following points below provide installation instructions, setup and configuration steps, details and links for using various interfaces with Vale, and a link for automating the running of Vale with GitHub.
 
-1. [Installation and system configuration](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Vale-linter-installation-and-system-configuration)
+1. [Installation and system configuration](https://github.com/hotlanta/vale_linter/wiki/Vale-linter-installation-and-system-configuration)
   
-2. [Vale integration with other interfaces](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Vale-integration-with-other-interfaces)
+2. [Vale integration with other interfaces](https://github.com/hotlanta/vale_linter/wiki/Vale-integration-with-other-interfaces)
 
 3. Running Vale on an individual file or folder: [Vale usage](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Vale-usage) 
 
-4. [Online tool for building Vale rules](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Online-tool-for-building-Vale-rules) -- Use if you need to create or update \*.yml files to check for additional conditions.
+4. [Online tool for building Vale rules](https://github.com/hotlanta/vale_linter/wiki/Online-tool-for-building-Vale-rules) -- Use if you need to create or update \*.yml files to check for additional conditions.
 
 5. Review / Vale linter automation
 
-   a. GitHub hook:[Vale review automation with `git push` and lefthook](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Automating-Vale-linter-checks-with-lefthook)
+   a. GitHub hook:[Vale review automation with `git push` and lefthook](https://github.com/hotlanta/vale_linter/wiki/Automating-Vale-linter-checks-with-lefthook)
 
    b. [Vale usage with a continuous integration (CI) service](https://docs.errata.ai/vale/install#using-vale-with-a-continuous-integration-ci-service)
 
    c. GitHub action: [Vale GitHub action](https://github.com/errata-ai/vale-action). It has to be enabled by writing this email address - scm_ghe_admins@groups.ext.hpe.com - to ask the admins to enable it for your repo. 
 
-6. [Understanding the Vale command line tool output](https://github.hpe.com/eric-szegedi/vale_linter/wiki/Understanding-the-Vale-command-line-tool-output)
+6. [Understanding the Vale command line tool output](https://github.com/hotlanta/vale_linter/wiki/Understanding-the-Vale-command-line-tool-output)
 
 7. Upgrade Vale
    
@@ -68,4 +68,4 @@ The following points below provide installation instructions, setup and configur
 | [conditional](https://errata-ai.github.io/vale/styles/#conditional) | HPE: Acronyms_abbreviations.yml  <br/><br/> Base: UnexpandedAcronyms.yml |
 | [spelling](https://errata-ai.github.io/vale/styles/#spelling) | Spelling.yml |
 
-10. [How to contribute](https://github.hpe.com/eric-szegedi/vale_linter/wiki/How-to-contribute)
+10. [How to contribute](https://github.com/hotlanta/vale_linter/wiki/How-to-contribute)
