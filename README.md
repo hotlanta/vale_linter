@@ -68,4 +68,6 @@ The following points below provide installation instructions, setup and configur
 | [conditional](https://errata-ai.github.io/vale/styles/#conditional) | HPE: Acronyms_abbreviations.yml  <br/><br/> Base: UnexpandedAcronyms.yml |
 | [spelling](https://errata-ai.github.io/vale/styles/#spelling) | Spelling.yml |
 
-10. [How to contribute](https://github.com/hotlanta/vale_linter/wiki/How-to-contribute)
+10. [Instructions for using with Ollama, Open WebUI, and Vale-MCP Server](https://github.com/hotlanta/Vale-MCP/blob/main/ollama_how_to_guide.md)
+
+12.   [How to contribute](https://github.com/hotlanta/vale_linter/wiki/How-to-contribute)
