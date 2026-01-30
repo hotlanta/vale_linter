@@ -1,0 +1,11 @@
+---
+# Warning: Readability.LinsearWrite
+#
+extends: metric
+message: "Try to keep the Linsear Write index (%s) below 80 and greater than 70."
+link: https://en.wikipedia.org/wiki/Linsear_Write
+
+formula: |
+   ((syllables-polysyllabic_words) + (3*polysyllabic_words)) / sentences)
+
+condition: "> 70"

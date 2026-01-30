@@ -1,0 +1,12 @@
+---
+extends: existence
+link: https://github.com/testthedocs/PlainLanguage/blob/master/Slash.yml
+link: https://github.com/redhat-documentation/vale-at-red-hat/blob/main/.vale/styles/RedHat/Slash.yml
+message: "Use either 'or' or 'and' in '%s'"
+ignorecase: true
+level: error
+tokens:
+  - '\w+/\w+'
+#  - '(?<!/)\w+/\w+'
+exceptions:
+  - "N/A"

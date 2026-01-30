@@ -1,0 +1,11 @@
+---
+# Warning: Readability.GunningFog
+#
+extends: metric
+message: "Try to keep the Gunning—Fog index (%s) below 10."
+link: https://en.wikipedia.org/wiki/Gunning_fog_index
+
+formula: |
+  0.4 * ((words / sentences) + 100 * (complex_words / words))
+
+condition: "> 10"

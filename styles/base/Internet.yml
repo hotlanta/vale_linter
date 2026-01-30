@@ -1,0 +1,14 @@
+---
+# Warning: base.internet
+#
+# Checks for capitalization of internet
+extends: existence
+message: "'%s' should only be capitalized when starting a sentence."
+level: error
+nonword: true
+scope:
+  - heading
+  - list
+  - sentence
+tokens:
+  - (?<=\s)Internet(?! Service Provider| Protocol)

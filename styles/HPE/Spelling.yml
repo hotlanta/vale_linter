@@ -3,12 +3,13 @@
 #
 # Checks for possible spelling mistakes in content, not code. Results from links using angle brackets (<https://example.com>) should be corrected.
 #
-# If a word is flagged as a spelling mistake incorrectly, such as a product name,
-# you can submit an MR to update `spelling-exceptions.txt` with the missing word.
-# Commands, like `git clone` must use backticks, and must not be added to the
-# exceptions.
+# If a word is flagged as a spelling mistake incorrectly, such as a product name,the `accept.txt' should be updated with the missing word.
+# some overlap with other rules such as Acronyms_abbreviaitons.yml
 extends: spelling
-message: 'Spelling check: "%s"?'
+message: "Check the spelling of '%s'."
 level: warning
+# experimenting on the best way to add spelling exceptions
 ignore:
   - D:/GitHub_documentation/vale_linter/styles/Vocab/spelling_exceptions/accept.txt
+  - ignore/base.txt
+  - Vocab/spelling_exceptions/accept.txt

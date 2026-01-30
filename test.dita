@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<?xml-model href="../../DTC%20Enterprise/Global%20Team%20-%20Digital%20Identity/HPE%20MPC%20Common/Schematron_rules/enforce-comma.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../DTC%20Enterprise/Global%20Team%20-%20Digital%20Identity/HPE%20MPC%20Common/Schematron_rules/master_schematron_rules.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept id="concept_isy_whz_4r">
  <title>test header</title>
  <shortdesc></shortdesc>
@@ -9,21 +9,12 @@
   <author type="contributor">EricSzegedi</author>
   <author type="creator">EricSzegedi</author>
   <critdates>
-   <created date="2021-02-22"/>
    <!--EricSzegedi-->
-   <revised modified="2021-02-22"/>
+   <revised modified="2023-02-14"/>
    <!--EricSzegedi-->
-   <revised modified="2021-02-23"/>
+   <revised modified="2023-09-29"/>
    <!--EricSzegedi-->
-   <revised modified="2021-02-25"/>
-   <!--EricSzegedi-->
-   <revised modified="2021-03-01"/>
-   <!--EricSzegedi-->
-   <revised modified="2021-03-02"/>
-   <!--EricSzegedi-->
-   <revised modified="2021-04-16"/>
-   <!--EricSzegedi-->
-   <revised modified="2021-04-23"/>
+   <revised modified="2024-05-14"/>
   </critdates>
   <metadata>
    <prodinfo>
@@ -37,6 +28,8 @@
   </metadata>
  </prolog>
  <conbody>
+  <p>And at start of a sentence needs to be removed.</p>
+  <p>But at start of a sentence needs to be removed.</p>
   <p>The websheet backend test examples.</p>
   <p>Adding apps as well as games to your OS.</p>
   <p>Use 1 or one</p>
@@ -54,5 +47,44 @@
   <p>mysql or MySQL?</p>
   <p>8 am to 5 pm</p>
   <p>0</p>
+  <p>rest</p>
+  <p>as a service</p>
+  <p>TOMCAT</p>
+  <p>So these are RANDOM CAPItalized words.</p>
+  <p>POD</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_vyy_cyv_mwb">
+   <title>Test title without proportional widths set</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1"/>
+    <colspec colname="c2" colnum="2"/>
+    <colspec colname="c3" colnum="3"/>
+    <thead>
+     <row>
+      <entry>test column 1</entry>
+      <entry>test column 2</entry>
+      <entry>test column 3</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+      <entry/>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Misspellllinggs wooordds are only checked in when running Vale in CLI.</p>
+  <p>Rogers is a customer name.</p>
  </conbody>
 </concept>
