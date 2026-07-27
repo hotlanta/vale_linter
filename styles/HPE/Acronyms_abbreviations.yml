@@ -31,6 +31,7 @@ exceptions:
   - CD-R
   - CD-RW
   - CDR
+  - CHF
   - CIFS
   - CIM
   - CLI
@@ -57,12 +58,15 @@ exceptions:
   - EULA
   - FAQ
   - FC
+  - FE
   - FIFO
   - FTP
   - GIF
   - GPU
   - GUI
   - HBA
+  - HCL
+  - HCLTech
   - HDD
   - HDMI
   - HELM
@@ -86,6 +90,7 @@ exceptions:
   - ITIL
   - ITU-T
   - JAR
+  - JDBC
   - JDK
   - JPEG
   - JSON
@@ -115,9 +120,11 @@ exceptions:
   - NFS
   - NGINX
   - NIC
+  - NME
   - NTFS
   - NVMe
   - NVRAM
+  - NWDAF
   - ODBC
   - OEM
   - OIDC
@@ -129,6 +136,7 @@ exceptions:
   - OSI
   - PBX
   - PC
+  - PCF
   - PCI
   - PCIe
   - PCMCIA
@@ -149,12 +157,14 @@ exceptions:
   - RPM
   - SAN
   - SATA
+  - SBI
   - SCSI
   - SDK
   - SFF
   - SFP
   - SMTP
   - SNA
+  - SNME
   - SNMP
   - SOAP
   - SPOF

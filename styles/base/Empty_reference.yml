@@ -1,8 +1,4 @@
----
-# Error: base.Empty_reference
-#
-#extends: existance
-extends: occurrence
+extends: existence
 message: "Empty reference!"
 ignorecase: false
 nonword: true

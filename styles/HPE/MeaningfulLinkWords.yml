@@ -3,13 +3,16 @@
 #
 # Checks for the presence of semantically unhelpful words in link text.
 #
+# original source: https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/.vale/gitlab/MeaningfulLinkWords.yml
 extends: existence
 message: "Do not create links that say 'here', 'click here', or 'click to [action]'."
 level: warning
-scope: link
+scope: raw
 ignorecase: true
 link: https://h10014.www1.hpe.com/brand-central/content/writing-style
 tokens:
-  - here
   - click here
   - click to
+  - \[here\]\(.*\)
+  - \[this page\]\(.*\)
+
